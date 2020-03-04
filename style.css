@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  font-family: 'Bison-Bold';
+  background: #fdcd07;
+}
+.logo {
+  min-height: 800px;
+  padding-top: 285px;
+  box-sizing: border-box;
+  background: linear-gradient(to right, #000000 50%, #fdcd07 50%);
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+.logo__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.intro {
+  padding: 20px;
+   background: #000000;
+   color: #fdcd07;
+
+   line-height: 38px;
+   text-align: center;
+}
+
+.intro__title {
+  margin: 0;
+  padding: 40px 0 25px;
+
+  letter-spacing: .3em;
+  font-size: 70px;
+}
+
+.intro__text {
+  margin: 0 0 60px;
+  font-size: 20px;
+}
+
+.btn {
+  margin: 0 14px;
+  width: 450px;
+  height: 72px;
+  box-sizing: border-box;
+
+  border: none;
+  border-radius: 15px;
+  background: #000000;
+
+  font-family: inherit;
+  font-size: 18px;
+  color: #fff;
+
+
+  cursor: pointer;
+  transition: all .3s linear;
+}
+
+.btn--yellow {
+  background: #fdcd07;
+  color: #000000;
+}
+
+.btn--black {
+  background: #000000;
+  border: 2px solid #fff;
+}
+
+.btn--yellow:hover {
+  background: #000000;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn--black:hover {
+  background: #fdcd07;
+  border: none;
+  color: #000000;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin: 27px 0 0;
+  list-style: none;
+}
+.social__item {
+  margin: 0 9px;
+}
+
+.social__link {
+  display: block;
+  width: 43px;
+  height: 43px;
+
+  background: #fdcd07;
+  border-radius: 50%;
+  box-sizing: border-box;
+
+  color: #000000;
+  font-size: 20px;
+  transition: all .3s linear;
+}
+.social__link i {
+  margin-top: 50%;
+  transform: translateY(-50%);
+}
+.social__link:hover {
+  background: #000000;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.content__title {
+  padding: 80px 0 70px;
+  text-align: center;
+  font-size: 70px;
+  text-transform: uppercase;
+}
+
+.gallery {
+  padding-top: 11px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  list-style: none;
+  background: #fff;
+}
+.gallery__item {
+  margin-right: 11px;
+  margin-bottom: 11px;
+  min-height: 235px;
+}
+.gallery__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.item-01 {
+  height: 33%;
+}
+.item-02 {
+  height: 34.2%;
+}
+.item-07 {
+  height: 10%;
+}
+.item-04 {
+  height: 38%;
+}
+.item-05 {
+  height: 35%;
+}
+
+.gallery__wrapper:first-child {
+  width: 32.6%;
+  /* width: 482px; */
+}
+
+.gallery__wrapper:nth-child(2) {
+  width: 33.4%;
+  /* width: 500px; */
+}
+
+.gallery__wrapper:nth-child(3) {
+  width: 29.6%;
+  /* width: 413px; */
+  margin-right: -11px;
+}
+
+.gallery__wrapper:last-child {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 11px;
+}
+
+.gallery__wrapper:last-child .gallery__item:first-child {
+  width: 54.17%;
+
+}
+
+.gallery__wrapper:last-child .gallery__item:last-child {
+  width: 40.61%;
+}
+
+
+.gallery__text {
+    position: relative;
+
+    max-width: 780px;
+    padding: 70px 50px;
+    height: 785px;
+    font-size: 80px;
+    line-height: 1;
+    letter-spacing: .1em;
+
+    background: #fdcd07;
+}
+
+.gallery__text p {
+  position: absolute;
+  width: 450px;
+}
+
+.gallery__text p:last-child {
+  bottom: 70px;
+}
+
+.gallery__text span {
+  font-size: 110px;
+}
+
+
+@font-face {
+  font-family: 'Bison-Bold';
+  src: url('fonts/Bison-Bold.eot');
+  src: url('fonts/Bison-Bold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Bison-Bold.woff2') format('woff2'),
+       url('fonts/Bison-Bold.woff') format('woff'),
+       url('fonts/Bison-Bold.ttf')  format('truetype'),
+       url('fonts/Bison-Bold.svg#svgBison-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1000px) {
+  .btn {
+    width: 35%;
+  }
+}
