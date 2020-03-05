@@ -162,17 +162,14 @@ body {
 
 .gallery__wrapper:first-child {
   width: 32.6%;
-  /* width: 482px; */
 }
 
 .gallery__wrapper:nth-child(2) {
   width: 33.4%;
-  /* width: 500px; */
 }
 
 .gallery__wrapper:nth-child(3) {
   width: 29.6%;
-  /* width: 413px; */
   margin-right: -11px;
 }
 
@@ -293,9 +290,3 @@ body {
     font-size: 70px;
   }
 }
-
-/* @media (max-width: 440px) {
-  .logo__img {
-    width: 50%;
-  }
-} */
