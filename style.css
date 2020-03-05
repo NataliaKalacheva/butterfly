@@ -11,6 +11,7 @@ body {
   background: #fdcd07;
 }
 .logo {
+  height: 100vh;
   min-height: 800px;
   padding-top: 285px;
   box-sizing: border-box;
@@ -179,6 +180,7 @@ body {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
   margin-left: 11px;
 }
@@ -190,6 +192,7 @@ body {
 
 .gallery__wrapper:last-child .gallery__item:last-child {
   width: 40.61%;
+  max-height: 925px;
 }
 
 .gallery__text {
@@ -244,3 +247,25 @@ body {
   }
 }
 
+@media (max-width: 740px) {
+  .logo__img {
+    width: 320px;
+  }
+  .intro__title {
+    letter-spacing: .2em;
+    font-size: 50px;
+  }
+
+  .gallery__wrapper:last-child {
+    flex-direction: column;
+    margin-right: 11px;
+  }
+
+  .gallery__wrapper:last-child .gallery__item {
+    width: 100% !important;
+    margin-right: 11px;
+  }
+  .gallery__text {
+    height: 500px;
+  }
+}
