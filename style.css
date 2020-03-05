@@ -245,15 +245,32 @@ body {
   .gallery__text span {
     font-size: 90px;
   }
+  .item-02 {
+    height: 36.2%;
+  }
+
+  .item-05 {
+    height: 36.6%;
+  }
 }
 
 @media (max-width: 740px) {
   .logo__img {
-    width: 320px;
+    width: 65%;
   }
+
   .intro__title {
     letter-spacing: .2em;
-    font-size: 50px;
+    font-size: 45px;
+  }
+  .intro__text {
+    font-size: 15px;
+  }
+  .btn {
+    width: 90%;
+  }
+  .social__item {
+    margin: 0 5px;
   }
 
   .gallery__wrapper:last-child {
@@ -268,4 +285,17 @@ body {
   .gallery__text {
     height: 500px;
   }
+  .gallery__text p {
+    width: 50%;
+    font-size: 40px;
+  }
+  .gallery__text span {
+    font-size: 70px;
+  }
 }
+
+/* @media (max-width: 440px) {
+  .logo__img {
+    width: 50%;
+  }
+} */
